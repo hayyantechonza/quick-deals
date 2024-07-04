@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Quick Deals</title>
+  <link rel="icon" href="./images/brands/favicon.svg" />
+  <!-- phosphor icons -->
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/light/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/bold/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/fill/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/duotone/style.css">
+  <!-- styling css -->
+  <link rel="stylesheet" href="./plugins/bootstrap-5.3.3/bootstrap.min.css" />
+  <link rel="stylesheet" href="./plugins/swiper-11.1.4/swiper.min.css" />
+  <link rel="stylesheet" href="./plugins/aos-2.0.0/aos.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!--============================
+  =            header            =
+  =============================-->
+  <header>
+    <div class="bg-secondary text-white py-3">
+      <div class="container-xl">
+        <div class="row align-items-center gy-3 gy-md-0">
+          <div class="col-md-3 col-sm-6">
+            <a href="index.html" class="logo">
+              <img src="images/brands/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="col-sm-6 offset-md-0">
+            <form class="search_form">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for store, coupans & offers" id="saerch">
+                <button class="btn ">
+                  <i class="ph ph-magnifying-glass"></i>
+                  <span>Search</span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 d-none d-md-flex justify-content-end">
+            <a href="#" class="btn">
+              <i class="ph ph-seal-percent"></i>
+              <span>Discount</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-sm-2">
+      <div class="container-xl">
+        <div class="row align-items-center">
+          <div class="col-sm-8 col-6">
+            <nav class="navbar navbar-expand-md">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="ph ph-list"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  <i class="ph ph-x"></i>
+                </button>
+                <ul class="navbar-nav">
+                  <li class="nav-item mb-3 d-flex d-md-none">
+                    <a class="logo" href="#">
+                      <img src="./images/brands/logo-dark.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Top Stores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item d-md-none d-flex">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-sm-4 d-none d-sm-flex justify-content-end">
+            <a href="#" class="btn">
+              <i class="ph ph-phone"></i>
+              <span>Contact us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <!-- hero -->
+    <section class="hero bg-primary-light">
+      <div class="container-xl">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <hgroup class="hero_content text-center text-lg-start">
+              <h1 class="hero_heading mx-lg-0 mx-auto">Welcome to Gambo Deals <br> World's Trusted <span>Cashback</span> Website</h1>
+              <p class="hero_text mx-lg-0 mx-auto">with 161,384 offers from 76,101 stores, we have a coupon to save you an average of $15 on your next purchase</p>
+            </hgroup>
+            <form class="search_form">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for store, coupans &amp; offers" id="saerch">
+                <button class="btn ">
+                  <i class="ph ph-magnifying-glass"></i>
+                  <span>Search</span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-5 offset-lg-1 position-relative">
+            <div class="d-flex hero_slider_arrows">
+              <div class="swiper-button-prev arrows"></div>
+              <div class="swiper-button-next arrows"></div>
+            </div>
+            <div class="swiper hero_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="" class="hero_slide">
+                    <figure class="hero_img overlay">
+                      <img src="images/banners/banner_1.webp" alt="Banner 1">
+                    </figure>
+                    <div class="hero_slide_content">
+                      <span class="hero_slide_tag">Travel Special</span>
+                      <hgroup>
+                        <h2 class="hero_slide_title">Plan Your Next Adventure</h2>
+                        <p class="hero_slide_text">Exclusive Discounts on Flights</p>
+                      </hgroup>
+                      <div class="hero_slide_code">
+                        <i class="ph-fill ph-wallet"></i>
+                        <span>Up to 20% Off</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="" class="hero_slide">
+                    <figure class="hero_img overlay">
+                      <img src="images/banners/banner_2.webp" alt="Banner 2">
+                    </figure>
+                    <div class="hero_slide_content">
+                      <span class="hero_slide_tag">Stationery Sale</span>
+                      <hgroup>
+                        <h2 class="hero_slide_title">Get Your Essentials</h2>
+                        <p class="hero_slide_text">Up to 30% Off on Stationery</p>
+                      </hgroup>
+                      <div class="hero_slide_code">
+                        <i class="ph-fill ph-wallet"></i>
+                        <span>Up to 15% Off</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="" class="hero_slide">
+                    <figure class="hero_img overlay">
+                      <img src="images/banners/banner_3.webp" alt="Banner 3">
+                    </figure>
+                    <div class="hero_slide_content">
+                      <span class="hero_slide_tag">Fashion Deals</span>
+                      <hgroup>
+                        <h2 class="hero_slide_title">Stylish Accessories</h2>
+                        <p class="hero_slide_text">Up to 50% Off</p>
+                      </hgroup>
+                      <div class="hero_slide_code">
+                        <i class="ph-fill ph-wallet"></i>
+                        <span>Up to 25% Off</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="" class="hero_slide">
+                    <figure class="hero_img overlay">
+                      <img src="images/banners/banner_4.webp" alt="Banner 4">
+                    </figure>
+                    <div class="hero_slide_content">
+                      <span class="hero_slide_tag">Sports Sale</span>
+                      <hgroup>
+                        <h2 class="hero_slide_title">Gear Up for Action</h2>
+                        <p class="hero_slide_text">Up to 40% Off on Footwear</p>
+                      </hgroup>
+                      <div class="hero_slide_code">
+                        <i class="ph-fill ph-wallet"></i>
+                        <span>Up to 20% Off</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="" class="hero_slide">
+                    <figure class="hero_img overlay">
+                      <img src="images/banners/banner_5.webp" alt="Banner 5">
+                    </figure>
+                    <div class="hero_slide_content">
+                      <span class="hero_slide_tag">Home Decor</span>
+                      <hgroup>
+                        <h2 class="hero_slide_title">Revamp Your Space</h2>
+                        <p class="hero_slide_text">Up to 35% Off</p>
+                      </hgroup>
+                      <div class="hero_slide_code">
+                        <i class="ph-fill ph-wallet"></i>
+                        <span>Up to 20% Off</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="" class="hero_slide">
+                    <figure class="hero_img overlay">
+                      <img src="images/banners/banner_6.webp" alt="Banner 6">
+                    </figure>
+                    <div class="hero_slide_content">
+                      <span class="hero_slide_tag">Summer Fashion</span>
+                      <hgroup>
+                        <h2 class="hero_slide_title">Fresh Looks for the Season</h2>
+                        <p class="hero_slide_text">Up to 60% Off on Clothing</p>
+                      </hgroup>
+                      <div class="hero_slide_code">
+                        <i class="ph-fill ph-wallet"></i>
+                        <span>Up to 30% Off</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- categories -->
+    <section class="top_categories">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="heading">Populor Categories</h2>
+          </div>
+        </div>
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/woman.webp" alt="Fashion">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Fashion</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/wedding.webp" alt="Clothing">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Clothing</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/shoe.webp" alt="Footwear">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Footwear</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/paper-crafts.webp" alt="Crafting">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Crafting</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/handbags.webp" alt="Handbags">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Handbags</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/jeans.webp" alt="Jeans">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Jeans</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/boutique.webp" alt="Dressing">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Dressing</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/sweater.webp" alt="Outerwear">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Outerwear</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/locket.webp" alt="Locket">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Locket</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <a href="#" class="categories_card">
+              <figure class="categories_img">
+                <img src="images/categories/wrist-watch.webp" alt="Watch">
+              </figure>
+              <div class="categories_content">
+                <h4 class="categories_title">Watch</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popular stores -->
+    <section class="popular_stores bg-primary-light">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="heading">Popular Stores</h2>
+          </div>
+        </div>
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-3">
+            <div class="featured_store">
+              <div class="featured_store_bg">
+                <h4>Featured Store</h4>
+              </div>
+              <div class="featured_store_content">
+                <figure class="featured_store_img">
+                  <img src="images/common/coupon.webp" alt="Store Image">
+                </figure>
+                <h4 class="featured_store_name text-center">Amazing Store</h4>
+                <h5 class="featured_store_title text-center">Best Deals and Offers</h5>
+                <a href="https://example.com/all-stores" class="btn">
+                  <span>View all Stores</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="swiper popular_stores_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_1.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Marks and Spencer</h4>
+                      <span class="popular_str_offers">53 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_2.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Zara</h4>
+                      <span class="popular_str_offers">45 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_3.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">H&M</h4>
+                      <span class="popular_str_offers">60 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_4.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Uniqlo</h4>
+                      <span class="popular_str_offers">30 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_5.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Nike</h4>
+                      <span class="popular_str_offers">70 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_6.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Adidas</h4>
+                      <span class="popular_str_offers">65 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_7.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Gucci</h4>
+                      <span class="popular_str_offers">40 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_8.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Louis Vuitton</h4>
+                      <span class="popular_str_offers">50 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_9.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Prada</h4>
+                      <span class="popular_str_offers">35 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_1.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Marks and Spencer</h4>
+                      <span class="popular_str_offers">53 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_2.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Zara</h4>
+                      <span class="popular_str_offers">45 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_3.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">H&M</h4>
+                      <span class="popular_str_offers">60 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_4.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Uniqlo</h4>
+                      <span class="popular_str_offers">30 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_5.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Nike</h4>
+                      <span class="popular_str_offers">70 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_6.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Adidas</h4>
+                      <span class="popular_str_offers">65 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_7.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Gucci</h4>
+                      <span class="popular_str_offers">40 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_8.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Louis Vuitton</h4>
+                      <span class="popular_str_offers">50 offers</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="popular_str">
+                    <figure class="popular_str_img">
+                      <img src="images/stores/store_9.webp" alt="">
+                    </figure>
+                    <div class="popular_str_content">
+                      <h4 class="popular_str_name">Prada</h4>
+                      <span class="popular_str_offers">35 offers</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev arrows"></div>
+              <div class="swiper-button-next arrows"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- steps -->
+    <section class="steps bg-secondary">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="heading text-white">Three Steps To Save With Quick Deals</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="step text-center text-white">
+              <div class="step_icon">
+                <i class="ph ph-magnifying-glass"></i>
+              </div>
+              <h4 class="step_title">Find Your Coupon</h4>
+              <p class="step_description">Browse through the available deals and select your desired coupon.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="step text-center text-white">
+              <div class="step_icon">
+                <i class="ph ph-clipboard"></i>
+              </div>
+              <h4 class="step_title">Copy the Coupon Code</h4>
+              <p class="step_description">Click the "Copy" button to copy the coupon code.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="step text-center text-white">
+              <div class="step_icon">
+                <i class="ph ph-shopping-cart"></i>
+              </div>
+              <h4 class="step_title">Apply at Checkout</h4>
+              <p class="step_description">Paste the coupon code in the appropriate box on the checkout page.</p>
+            </div>
+          </div>
+          <h1></h1>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer></footer>
+  <!--====  End of Footer  ====-->
+  <!-- js files -->
+  <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
+  <script type="text/javascript" src="./plugins/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./plugins/aos-2.0.0/aos.js"></script>
+  <script type="text/javascript" src="./plugins/jquery-3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+  <script>
+  AOS.init({
+    once: true,
+    offset: 150,
+    duration: 1000,
+  });
+  </script>
+</body>
+
+</html>
