@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Deal Discount & Promos</title>
-  <link rel="icon" href="./images/brand/favicon.svg" />
+  <title>Home - Quick Deals</title>
+  <link rel="icon" href="./images/brands/favicon.svg" />
   <!-- phosphor icons -->
   <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
   <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
@@ -24,17 +24,395 @@
   <!--============================
   =            header            =
   =============================-->
-  <header class="sticky-top"></header>
+  <header>
+    <div class="bg-secondary py-3">
+      <div class="container-xl">
+        <div class="row align-items-center gy-3 gy-md-0">
+          <div class="col-md-3 col-sm-6">
+            <a href="index.html" class="logo">
+              <img src="images/brands/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="col-sm-6 offset-md-0">
+            <form class="search_form">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for store, coupans & offers" id="saerch">
+                <button class="btn ">
+                  <i class="ph ph-magnifying-glass"></i>
+                  <span>Search</span>
+                </button>
+              </div>
+              <div id="search-results" class="bg-white">
+                <h6 class="py-2 px-3 bg-light border-bottom">Search: ach</h6>
+                <div class="search-results-wrapper">
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Best coupons available</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Great offers on products</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Discount on first purchase</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Buy one get one free</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 d-none d-md-flex justify-content-end">
+            <a href="#" class="btn">
+              <i class="ph ph-seal-percent"></i>
+              <span>Discount</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-sm-2">
+      <div class="container-xl">
+        <div class="row align-items-center">
+          <div class="col-sm-8 col-6">
+            <nav class="navbar navbar-expand-md">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="ph ph-list"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  <i class="ph ph-x"></i>
+                </button>
+                <ul class="navbar-nav">
+                  <li class="nav-item mb-3 d-flex d-md-none">
+                    <a class="logo" href="#">
+                      <img src="./images/brands/logo-dark.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="stores.html">Stores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="categories.html">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item d-md-none d-flex">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-sm-4 d-none d-sm-flex justify-content-end">
+            <a href="contact.html" class="btn">
+              <i class="ph ph-phone"></i>
+              <span>Contact us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <!--====  End of header  ====-->
   <!--==========================
   =            Main            =
   ===========================-->
-  <main></main>
+  <main>
+    <!-- breadcrumb -->
+    <section class="banner py-4 bg-secondary">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-white">About us</h4>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About us</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h2>General info</h2>
+            <br>
+            <p>Quick Deals coupon and deals website Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, laudantium. Maiores impedit corrupti dolore incidunt minima dignissimos, quae delectus esse voluptatem ratione nisi voluptates quos optio quis at autem recusandae. Quasi numquam nostrum maxime. Laborum ex similique neque reiciendis quia alias vel aut harum, aspernatur doloribus odio minima dignissimos? Assumenda numquam minus itaque, sint saepe enim fugiat mollitia, hic obcaecati officiis molestiae quasi quidem corrupti aliquid eos officia commodi nihil facilis reiciendis laudantium harum. Vel, molestias! Vel, accusamus quam laboriosam quisquam odio deserunt nostrum, deleniti molestiae minima ipsam eligendi est fuga. Reprehenderit ducimus facilis voluptatum, sapiente itaque! Doloremque, enim est quidem sequi. Sapiente voluptas iste dolorum accusamus deserunt architecto eveniet?</p>
+            <br>
+            <p>this is about page Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur inventore deserunt, quis, tempora magni maxime pariatur quo perspiciatis id. Odio tempore obcaecati ut error eos alias cumque quia, excepturi nobis hic laborum quae esse aliquid enim in sapiente. Perferendis unde cum quidem aperiam magni similique voluptas iure laboriosam necessitatibus quae quam, dolor a quis laborum quasi consequuntur asperiores doloremque porro est. Dolores, distinctio ex, quaerat iusto ut doloremque dolore nisi consectetur eos asperiores explicabo ipsam quibusdam reprehenderit illo sequi voluptas. Labore maiores nulla eaque voluptates debitis dignissimos nobis quam expedita nesciunt odio inventore blanditiis optio magnam assumenda natus, temporibus ea consequatur? Sint, consequatur ipsum non adipisci dolores eius at libero animi minus repellat possimus sunt aperiam illum corporis dolorem magnam ad recusandae cupiditate? Ad totam asperiores molestiae, accusamus, iusto magnam voluptas neque quibusdam quos molestias obcaecati sed suscipit laboriosam iste commodi sequi id, veritatis dignissimos rerum esse quaerat, odio hic.</p>
+            <br>
+            <h2>Privicy Policy</h2>
+            <br>
+            <p>privicy policy Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae ex provident obcaecati expedita nam nisi aut, inventore aspernatur saepe consectetur sint, eius deserunt nihil mollitia facilis architecto maiores commodi tempora quod voluptatem eveniet laudantium ad? Unde eaque id aut tempora rem mollitia amet dolores dolorem voluptate ipsum minus inventore vero odit in, aliquam harum deleniti optio impedit? Consequuntur, sint cupiditate non optio harum officiis sunt nulla dolorum omnis neque, soluta, corrupti quia odit sed praesentium nostrum consectetur assumenda quos? Accusantium distinctio explicabo maiores qui, sequi dolorem, nobis. Dolorum ab ad saepe voluptatem ipsa nemo expedita exercitationem quod, nulla optio, magni esse iste harum nostrum, error consequatur vitae omnis vero blanditiis ut quidem, deserunt cum! Exercitationem voluptates quo nihil maiores consequatur, totam, dolorum quia libero tenetur reiciendis distinctio sapiente? Veritatis voluptate vitae dolorum nihil ex maiores, culpa obcaecati, eaque distinctio dolore blanditiis molestiae molestias ab eligendi. Ipsum quae qui incidunt?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <!--====  End of Main  ====-->
   <!--============================
   =            Footer            =
   =============================-->
-  <footer></footer>
+  <footer class="bg-secondary-dark text-white">
+    <div class="footer-top bg-secondary-light">
+      <div class="container-xl">
+        <div class="row gy-4">
+          <div class="col-md-5">
+            <a href="#" class="logo">
+              <img src="images/brands/logo.svg" alt="">
+            </a>
+            <p class="footer_disclaimer mt-2 mb-4">Disclaimer: "We may earn a commission when you use one of our coupons/links to make a purchase."</p>
+            <div class="social_icons">
+              <div class="icon facebook">
+                <figure>
+                  <img src="images/socials/facebook.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon twitter">
+                <i class="fa fa-twitter"></i>
+                <figure>
+                  <img src="images/socials/twitter.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon instagram">
+                <i class="fa fa-instagram"></i>
+                <figure>
+                  <img src="images/socials/instagram.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon google_plus">
+                <i class="fa fa-google-plus"></i>
+                <figure>
+                  <img src="images/socials/google_plus.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon linkedin">
+                <i class="fa fa-linkedin"></i>
+                <figure>
+                  <img src="images/socials/linkedin.svg" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-2">
+            <h4 class="mb-3">Subscribe To Our Newsletter</h4>
+            <form class="subscribe_form needs-validation" novalidate>
+              <div class="input-group has-validation">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+                <button class="btn">
+                  <span>Submit</span>
+                </button>
+                <div class="invalid-tooltip">
+                  Please enter the email
+                </div>
+              </div>
+              <small class="mt-3 d-block">Weekly animation tutorials delivered straight to your on box</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom py-5">
+      <div class="container-xl">
+        <div class="row gy-5">
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Store</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Categories</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="mb-3">Popular Stores</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Amazon</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Walmart</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Target</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Best Buy</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Macy's</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="mb-3">Popular Categories</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Electronics</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Clothing</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Home & Furniture</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Travel</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Health & Beauty</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5>Tricknidea Info</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="post_box">
+                  <i class="ph-duotone ph-storefront"></i>
+                  <div class="post_box_content">
+                    <h5 class="stats_number">Merchants</h5>
+                    <p>We've Partnered With Over 3576+ Merchants</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="post_box">
+                  <i class="ph-duotone ph-briefcase"></i>
+                  <div class="post_box_content">
+                    <h5 class="stats_number">Categories</h5>
+                    <p>We Have More Than 83+ Categories To Choose From</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="post_box">
+                  <i class="ph-duotone ph-users-three"></i>
+                  <div class="post_box_content">
+                    <h5 class="stats_number">Users</h5>
+                    <p>We're A Growing Family Of Over 342+ Users Daily</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright py-3 text-center">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright 2022 © All Rights Reserved. | Created & Managed By <a target="_blank" href="https://hayyanshaikh55.netlify.app">Hayyan Ali.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!--====  End of Footer  ====-->
   <!-- js files -->
   <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>

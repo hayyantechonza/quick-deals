@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Deal Discount & Promos</title>
-  <link rel="icon" href="./images/brand/favicon.svg" />
+  <title>Home - Quick Deals</title>
+  <link rel="icon" href="./images/brands/favicon.svg" />
   <!-- phosphor icons -->
   <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
   <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
@@ -24,17 +24,722 @@
   <!--============================
   =            header            =
   =============================-->
-  <header class="sticky-top"></header>
+  <header>
+    <div class="bg-secondary py-3">
+      <div class="container-xl">
+        <div class="row align-items-center gy-3 gy-md-0">
+          <div class="col-md-3 col-sm-6">
+            <a href="index.html" class="logo">
+              <img src="images/brands/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="col-sm-6 offset-md-0">
+            <form class="search_form">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for store, coupans & offers" id="saerch">
+                <button class="btn ">
+                  <i class="ph ph-magnifying-glass"></i>
+                  <span>Search</span>
+                </button>
+              </div>
+              <div id="search-results" class="bg-white">
+                <h6 class="py-2 px-3 bg-light border-bottom">Search: ach</h6>
+                <div class="search-results-wrapper">
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Best coupons available</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Great offers on products</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Discount on first purchase</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="result-item">
+                    <div class="row gx-3 align-items-center">
+                      <div class="col-2">
+                        <figure class="">
+                          <img src="images/stores/store_1.webp" alt="">
+                        </figure>
+                      </div>
+                      <div class="col-10">
+                        <h6>Buy one get one free</h6>
+                        <span class="text-primary small fw-medium">Offers 12</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 d-none d-md-flex justify-content-end">
+            <a href="#" class="btn">
+              <i class="ph ph-seal-percent"></i>
+              <span>Discount</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-sm-2">
+      <div class="container-xl">
+        <div class="row align-items-center">
+          <div class="col-sm-8 col-6">
+            <nav class="navbar navbar-expand-md">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="ph ph-list"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  <i class="ph ph-x"></i>
+                </button>
+                <ul class="navbar-nav">
+                  <li class="nav-item mb-3 d-flex d-md-none">
+                    <a class="logo" href="#">
+                      <img src="./images/brands/logo-dark.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="stores.html">Stores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="categories.html">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item d-md-none d-flex">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-sm-4 d-none d-sm-flex justify-content-end">
+            <a href="contact.html" class="btn">
+              <i class="ph ph-phone"></i>
+              <span>Contact us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <!--====  End of header  ====-->
   <!--==========================
   =            Main            =
   ===========================-->
-  <main></main>
+  <main>
+    <!-- breadcrumb -->
+    <section class="banner py-4 bg-secondary">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-white">All Categories</h4>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">All Categories</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="stores bg-primary-light">
+      <div class="container-xl">
+        <div class="container_wrapper p-4 rounded bg-white">
+          <div class="row gy-4">
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Flowers, Gifts & Jewellery</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Chocolates</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Jewellery</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Greeting Cards</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Soft Toys</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Gift Combos</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Grooming Hampers</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Flowers & Cakes</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Travel</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Flight</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Hotel</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Bus</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Cabs</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Car Rentals</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Railway Bookings</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Self-drive Cars</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Holiday</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">TV, Audio/Video & Movies</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">On Demand Content</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Televisions</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Movies & TV Shows</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Audio & Video</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Cables & Accessories</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Music</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">DTH & Internet Providers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Beauty & Health</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Personal Care & Beauty</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Makeup & Cosmetics</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Perfumes & Deos</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Nutrition</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Medicines & Health Check-Ups</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Health Devices</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Eyewear</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Sexual Wellness</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Fashion</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Clothing</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Footwear</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Bags & Accessories</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Watch & Sunglasses</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Travel Accessories</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Lingerie</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Entertainment</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Movie Tickets</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Streaming Music</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Theme Parks</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Indoor & Outdoor Games</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Online Games</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Food & Dining</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Food Ordering</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Drinks & Beverages</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Pizza</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Grocery</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Restaurants</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Cameras, Mobiles & Tablets</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Cameras</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Camera Accessories</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Mobile & Tablet Accessories</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Mobile</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Tablet</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Miscellaneous</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Others</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Pet Products</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Financial Services</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Matrimonial</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Astrology</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Local Services</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Home Repair</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Salon & Spa</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Laundry</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Home Cleaning</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Pest Control</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Kids, Babies & Toys</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Baby Products</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Apparel & Accessories</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Toys & Games</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">School Essentials</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <a href="single_categories.html" class="fs-5 fw-medium text-secondary">Appliances</a>
+              <ul class="categories_list list-unstyled mt-3">
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Home Appliances</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Kitchen Appliances</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Personal Care Appliances</a>
+                </li>
+                <li class="mt-2">
+                  <i class="ph-fill ph-check-circle"></i>
+                  <a href="single_categories.html" class="d-block">Cleaning Accessories</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <!--====  End of Main  ====-->
   <!--============================
   =            Footer            =
   =============================-->
-  <footer></footer>
+  <footer class="bg-secondary-dark text-white">
+    <div class="footer-top bg-secondary-light">
+      <div class="container-xl">
+        <div class="row gy-4">
+          <div class="col-md-5">
+            <a href="#" class="logo">
+              <img src="images/brands/logo.svg" alt="">
+            </a>
+            <p class="footer_disclaimer mt-2 mb-4">Disclaimer: "We may earn a commission when you use one of our coupons/links to make a purchase."</p>
+            <div class="social_icons">
+              <div class="icon facebook">
+                <figure>
+                  <img src="images/socials/facebook.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon twitter">
+                <i class="fa fa-twitter"></i>
+                <figure>
+                  <img src="images/socials/twitter.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon instagram">
+                <i class="fa fa-instagram"></i>
+                <figure>
+                  <img src="images/socials/instagram.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon google_plus">
+                <i class="fa fa-google-plus"></i>
+                <figure>
+                  <img src="images/socials/google_plus.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon linkedin">
+                <i class="fa fa-linkedin"></i>
+                <figure>
+                  <img src="images/socials/linkedin.svg" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-2">
+            <h4 class="mb-3">Subscribe To Our Newsletter</h4>
+            <form class="subscribe_form needs-validation" novalidate>
+              <div class="input-group has-validation">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+                <button class="btn">
+                  <span>Submit</span>
+                </button>
+                <div class="invalid-tooltip">
+                  Please enter the email
+                </div>
+              </div>
+              <small class="mt-3 d-block">Weekly animation tutorials delivered straight to your on box</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom py-5">
+      <div class="container-xl">
+        <div class="row gy-5">
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Store</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Categories</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="mb-3">Popular Stores</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Amazon</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Walmart</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Target</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Best Buy</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Macy's</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="mb-3">Popular Categories</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Electronics</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Clothing</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Home & Furniture</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Travel</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-text">
+                  <i class="ph-duotone ph-caret-double-right"></i>
+                  <span>Health & Beauty</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5>Tricknidea Info</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="post_box">
+                  <i class="ph-duotone ph-storefront"></i>
+                  <div class="post_box_content">
+                    <h5 class="stats_number">Merchants</h5>
+                    <p>We've Partnered With Over 3576+ Merchants</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="post_box">
+                  <i class="ph-duotone ph-briefcase"></i>
+                  <div class="post_box_content">
+                    <h5 class="stats_number">Categories</h5>
+                    <p>We Have More Than 83+ Categories To Choose From</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="post_box">
+                  <i class="ph-duotone ph-users-three"></i>
+                  <div class="post_box_content">
+                    <h5 class="stats_number">Users</h5>
+                    <p>We're A Growing Family Of Over 342+ Users Daily</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright py-3 text-center">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright 2022 © All Rights Reserved. | Created & Managed By <a target="_blank" href="https://hayyanshaikh55.netlify.app">Hayyan Ali.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!--====  End of Footer  ====-->
   <!-- js files -->
   <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
